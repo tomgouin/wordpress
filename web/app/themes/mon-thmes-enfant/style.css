@@ -1,0 +1,84 @@
+/*
+Theme Name: Mon Thème Enfant
+Template: /astra
+*/
+
+.homepage-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.competences ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.competences li {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.portfolio-item {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.portfolio-thumbnail img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+}
+.photo-intro {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.project-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.project-details h1 {
+    text-align: center;
+    color: #333;
+}
+
+.project-thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.project-description {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.project-gallery {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.project-gallery img {
+    width: 30%;
+    border-radius: 8px;
+}
