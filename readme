@@ -1,0 +1,42 @@
+J'ai créer un custom post type avec des champs ACF
+J'ai fait un single-portfolio.php, un archive-portfolio.php, front-page.php pour afficher une page d'accueil 
+J'ai fait toutes les étapes
+
+Difficulté:
+je n'arrive pas à appliquer le single-portfolio.ph à une page ni a un article
+Lorsque je remplis les champs personaliser dans mon custom post type ils ne s'affichent pas 
+J'ai alors créer des articles ausquel j'ai ajouter mon grpoes de champs personalisert mais j'avais toujours le même promblème et j'ai fais une page projets pour afficher mes articles mais elle n'en affiche que un
+
+Instalation:
+Je n'ai pas utiliser XAMP j'ai donc intallé mysql avec scoop et je l'ai utiliser pour créer ma base de donnée et lancer mon serveur local
+
+.env:
+  DB_NAME='wp'
+  DB_USER='root'
+  DB_PASSWORD='root'
+  
+  # Optionally, you can use a data source name (DSN)
+  # When using a DSN, you can remove the DB_NAME, DB_USER, DB_PASSWORD, and DB_HOST variables
+  # DATABASE_URL='mysql://database_user:database_password@database_host:database_port/database_name'
+  
+  # Optional database variables
+  # DB_HOST='localhost'
+  # DB_PREFIX='wp_'
+  
+  WP_ENV='development'
+  WP_HOME='http://localhost:8000/web'
+  WP_SITEURL="${WP_HOME}/wp"
+  
+  # Specify optional debug.log path
+  # WP_DEBUG_LOG='/path/to/debug.log'
+  
+  # Generate your keys here: https://roots.io/salts.html
+  AUTH_KEY='generateme'
+  SECURE_AUTH_KEY='generateme'
+  LOGGED_IN_KEY='generateme'
+  NONCE_KEY='generateme'
+  AUTH_SALT='generateme'
+  SECURE_AUTH_SALT='generateme'
+  LOGGED_IN_SALT='generateme'
+  NONCE_SALT='generateme'
+
